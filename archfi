@@ -195,9 +195,6 @@ diskpartmenu(){
 	fi
 	options=()
 	if [ "${eficomputer}" == "0" ]; then
-		options+=("${txtautoparts} (gpt)" "")
-		options+=("${txtautoparts} (dos)" "")
-	else
 		options+=("${txtautoparts} (gpt,efi)" "")
 		options+=("${txtautoparts} (gpt)" "")
 		options+=("${txtautoparts} (dos)" "")
@@ -1071,8 +1068,8 @@ archsetkeymap(){
 		3>&1 1>&2 2>&3)
 	if [ "$?" = "0" ]; then
 		clear
-		echo "echo \"KEYMAP=${keymap}\" > /mnt/etc/vconsole.conf"
-		echo "KEYMAP=${keymap}" > /mnt/etc/vconsole.conf
+		echo "echo \"KEYMAP=uk\" > /mnt/etc/vconsole.conf"
+		echo "KEYMAP=uk" > /mnt/etc/vconsole.conf
 		pressanykey
 	fi
 }
@@ -2029,7 +2026,7 @@ else
 		fi
 	fi
 	loadstrings
-	EDITOR=nano
+	EDITOR=vim
 	mainmenu
 fi
 
