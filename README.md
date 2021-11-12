@@ -2,13 +2,15 @@
 
 Just a simple bash script wizard to install Arch Linux after you have booted on the official Arch Linux install media.
 
+This script was originally made by MatMoul, but i forked it so that I could make a version specifically for me :).
+
 With this script, you can install Arch Linux with two simple terminal commands.
 
 This wizard is made to install minimum packages (Base, bootloader and optionally archdi).
 
 At the end of this wizard, you can install or launch [archdi](https://github.com/MatMoul/archdi) (Arch Linux Desktop Install) to install and configure desktop packages.
 
-You can watch my videos to see how to use it [here](https://www.youtube.com/playlist?list=PLytHgIKLV1caHlCrcTSkm5OF2WSVI1_Sq).
+You can watch MatMoul's videos to see how to use it [here](https://www.youtube.com/playlist?list=PLytHgIKLV1caHlCrcTSkm5OF2WSVI1_Sq).
 
 ## How to use
 
@@ -47,3 +49,4 @@ You can test your script with this command :
 Example :
 
     sh archfi -t matmoul master
+    
