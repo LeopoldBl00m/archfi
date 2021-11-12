@@ -1,8 +1,8 @@
 # archfi
 
-Just a simple bash script wizard to install Arch Linux after you have booted on the official Arch Linux install media.
-
 This script was originally made by MatMoul, but i forked it so that I could make a version specifically for me :).
+
+Just a simple bash script wizard to install Arch Linux after you have booted on the official Arch Linux install media.
 
 With this script, you can install Arch Linux with two simple terminal commands.
 
